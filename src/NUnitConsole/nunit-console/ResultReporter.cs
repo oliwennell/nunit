@@ -24,6 +24,7 @@
 using System;
 using System.Globalization;
 using System.Xml;
+using NUnit.Common;
 using NUnit.Framework.Internal;
 
 namespace NUnit.ConsoleRunner
