@@ -64,8 +64,11 @@
     <Compile Include="..\..\CommonAssemblyInfo.cs">
       <Link>CommonAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="..\..\Common\OutputSpecification.cs">
+      <Link>Common\OutputSpecification.cs</Link>
+    </Compile>
     <Compile Include="..\..\Common\TestNameParser.cs">
-      <Link>Comon\TestNameParser.cs</Link>
+      <Link>Common\TestNameParser.cs</Link>
     </Compile>
     <Compile Include="..\FrameworkVersion.cs">
       <Link>FrameworkVersion.cs</Link>
@@ -353,7 +356,6 @@
     <Compile Include="Runner\CommandLineOptions.cs" />
     <Compile Include="Runner\DebugWriter.cs" />
     <Compile Include="Runner\OutputManager.cs" />
-    <Compile Include="Runner\OutputSpecification.cs" />
     <Compile Include="Runner\OutputWriters\NUnit2XmlOutputWriter.cs" />
     <Compile Include="Runner\OutputWriters\NUnit3XmlOutputWriter.cs" />
     <Compile Include="Runner\OutputWriters\OutputWriter.cs" />
